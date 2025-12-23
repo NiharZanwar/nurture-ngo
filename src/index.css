@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 @layer base {
+  html, body {
+    @apply overflow-x-hidden;
+  }
+
   body {
     @apply text-earthy-brown bg-soft-beige;
     font-family: 'Inter', 'Nunito', ui-sans-serif, system-ui, sans-serif;
