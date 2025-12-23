@@ -1,0 +1,143 @@
+Project Nurture Website Specification
+
+This document contains the full content strategy and technical instructions for building the Project Nurture website.
+
+PART 1: WEBSITE CONTENT (SOURCE OF TRUTH)
+
+1. Brand Identity
+
+Name: Project Nurture
+
+Tagline: "Wellness Begins with Green"
+
+Primary Mission: A youth-led NGO dedicated to spreading kindness and building a sustainable future through simple yet powerful acts of care.
+
+Core Values (The 4 Ds): Donation, Dedication, Determination, Devotion.
+
+Social Handle: @project.nurturee
+
+Vibe/Aesthetics: Authentic, Youthful, Earthy, Simple, Hopeful.
+
+Color Palette Suggestions: Forest Green (Primary), Earthy Brown (Secondary), Soft White/Beige (Backgrounds), Sunshine Yellow (Accents).
+
+2. Section-by-Section Copy
+
+Hero Section
+
+Headline: Wellness Begins with Green.
+
+Sub-headline: Three teenagers, one mission: to nurture the environment and our communities.
+
+Intro Text: In a world where kindness often feels in short supply, we are proving that youth can lead the way in shaping a better tomorrow. Every smile we see, every tree we grow, every child who discovers a book—these are the seeds of hope we are planting.
+
+About Us (The Team)
+
+Intro: "Project Nurture is not just an NGO. It’s a promise to care, to share, and to nurture."
+
+Founder 1: Viha Bhattad (Founder)
+
+Bio: An 11th Grade Science student with a vision beyond academics. Viha dreams of creating a society rooted in compassion. Under her leadership, the NGO has organized plantation drives, donation campaigns, and workshops. She balances studies with social service, standing as a role model for young leaders.
+
+Founder 2: Aarya Shah (Co-Founder)
+
+Bio: A 9th-grade student with a strong sense of justice and empathy. Aspiring to be a lawyer, she believes in building a society that is fair and inclusive. Aarya plays a key role in planning and executing community projects, proving age is no barrier to passion.
+
+Founder 3: Anaisha Golchha (Co-Founder)
+
+Bio: A 9th grader and dedicated swimmer. Anaisha channels her athlete’s discipline and team spirit into meaningful service. Whether it’s a plantation drive or a donation program, she contributes wholeheartedly with energy and compassion.
+
+Our Impact (Projects)
+
+Project 1: Urban Forests (Environment)
+
+Details: A unique initiative to build Urban Forests in the heart of Pune in collaboration with Anandvan. We transform lifeless concrete spaces into green, self-sustaining ecosystems using native tree species to make the city cleaner, cooler, and healthier.
+
+Project 2: The 7-Day Donation Drive (Community)
+
+Details: Collaborated with Goodwill India Foundation, Pune. The community came together to donate clothes, essentials, and old belongings.
+
+Achievement: Featured in the local newspaper three times. Received an "Impact Certificate" for eco-conscious service.
+
+Project 3: Book Donation (Education)
+
+Details: Donated notebooks, pens, and stationery to the kids at Balgram SOS Children's Village.
+
+Quote: "Just like trees, young minds grow strong when nurtured with care and love."
+
+Project 4: Blanket Distribution (Global Reach)
+
+Details: Donated blankets to factory workers in Botswana, Africa, to help them stay warm during cold early shifts.
+
+Quote: "They stitch clothes with dedication every day. We stitched a little warmth into their lives."
+
+Project 5: Serving Warkaris (Culture)
+
+Details: Served free meals, cool drinking water, and provided resting shade under newly planted trees to Warkaris walking toward Pandharpur during the Dnyaneshwar Palkhi.
+
+PART 2: MASTER PROMPT FOR AI AGENT (Cursor/Windsurf)
+
+Copy and paste the text below into your AI coding tool's chat:
+
+ROLE:
+You are a Senior Frontend Engineer and UI/UX Designer specializing in building high-impact, authentic NGO websites. You are an expert in React.js, Tailwind CSS, and responsive design.
+
+GOAL:
+Build a complete, responsive website for "Project Nurture," a youth-led NGO. The website must feel organic, trustworthy, and simple. It needs to tell the story of three teenagers making a difference.
+
+TECH STACK:
+
+Framework: React (Vite)
+
+Styling: Tailwind CSS
+
+Icons: Lucide-React
+
+Fonts: Use a clean sans-serif (like Inter or Nunito) for body text and a warm serif (like Merriweather or Playfair Display) for headings to give an "authentic" feel.
+
+Animation: Use framer-motion for subtle fade-ins on scroll (optional, but preferred for polish).
+
+DESIGN GUIDELINES:
+
+Color Palette: Use natural tones. Deep Forest Green (#2F5233) for primary buttons/headers, Soft Beige (#F1F8E9) for backgrounds, and Earthy Brown for text accents.
+
+Layout:
+
+Navbar: Sticky top with logo (text is fine for now) and links: Home, About, Impact, Contact.
+
+Hero: Full-width background image (use a placeholder related to nature/planting) with the Headline and CTA "Join Our Mission".
+
+Features: A grid showing the "4 Ds" (Donation, Dedication, Determination, Devotion).
+
+Founders Section: A 3-column card layout for Viha, Aarya, and Anaisha. Use circular placeholders for their photos.
+
+Projects Section: A timeline or alternating layout (Left-Text/Right-Image, then swap) detailing the 5 major projects (Urban Forests, Donation Drive, etc.).
+
+Press/Trust: A section titled "In the News" to display placeholders for newspaper clippings.
+
+Footer: Simple, with the social handle @project.nurturee and a "Contact Us" form.
+
+CONTENT TO USE:
+Please refer to the "Website Content" section provided above. You MUST use the exact text for the bios, project descriptions, and mission statements. Do not use Lorem Ipsum where real text is provided.
+
+IMPLEMENTATION STEPS:
+
+Set up a standard React structure with a Layout component.
+
+Create reusable components: Button, Section, ProjectCard, FounderCard.
+
+Build the Home page containing all sections (Hero, About, Impact, Contact) for a seamless scrolling experience (Landing Page style).
+
+Ensure the "Donate/Contact" section is prominent at the bottom.
+
+Make it fully responsive (mobile-first approach).
+
+SPECIFIC REQUESTS:
+
+For the Impact Section, use icons or badges to distinguish between "Environment", "Community", and "Education" projects.
+
+Ensure the Founders' Bios emphasize their age/grade to highlight the "youth-led" aspect.
+
+The "Donation Drive" section should explicitly mention the collaboration with Goodwill India.
+
+START NOW:
+Please generate the project structure and the main App code.
